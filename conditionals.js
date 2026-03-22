@@ -8,23 +8,32 @@ console.log('Is 2 gelijk aan 2?', equalNumbers);
 // ==========================================
 // 1. Declareer een variabele en sla daar de uitkomst van de vergelijking "Is 10 groter dan 20?" in op        // geeft false wanneer gelogd
 // ==========================================
-
+const outcome = 10 > 20;
+console.log(outcome);
 
 // ==========================================
 // 2. Declareer een variabele en sla daar de uitkomst van de vergelijking "Is 10 ongelijk aan 11?" in op        // geeft true wanneer gelogd
 // ==========================================
-
+const outcome2 = !(10 === 11)
+console.log(outcome2);
 
 // ==========================================
 // 3. Declareer een variabele en sla daar in op of de woorden 'zoet' en 'sappig' hetzelfde zijn                // geeft false wanneer gelogd
 // ==========================================
-
-
+const words = 'zoet' === 'sappig';
+console.log(words);
 // ==========================================
 // 4a. Declareer een variabele en sla daar het rapportcijfer 9 in op.
 // 4b. schrijf een script dat checkt of het rapportcijfer groter is dan 8.
 //     Als dat zo is, loggen we 'Cum laude!' in de console.                                                     // geeft 'Cum laude!' wanneer gelogd
 // ==========================================
+const grade = 8.2;
+
+if (grade > 8) {
+    console.log("Cum laude!")
+} else {
+    console.log("Geen Cum laude...")
+}
 
 
 // ==========================================
@@ -36,3 +45,11 @@ console.log('Is 2 gelijk aan 2?', equalNumbers);
 
 const isRaining = false;
 const temperature = 23;
+
+if (!isRaining && temperature > 21) {
+    console.log("Je kunt een korte broek aan!");
+}
+
+if (isRaining || temperature < 12) {
+    console.log("Doe een jas aan!");
+}
