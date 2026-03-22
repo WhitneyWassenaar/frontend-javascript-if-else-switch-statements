@@ -102,6 +102,7 @@ switch (monitorColor) {
 
 // VRAAG: Wanneer gebruik je een default?
 // Dat gebruik je als geen enkele case matcht
+// Wanneer de cases geen vaste waarden zullen hebben. Bij de ereste opdracht weet je zeker dat de cases 0 tot 4 zullen zijn. Dus als je zekerheid hebt dat er een vaste range is aan cases hoef je geen default te gebruiken. Bij de 2de opdracht wordt dat niet vermeld, het zou dus kunnen dat er bijvoorbeeld ook 'purple' of 'pink' kan voorkomen, in dat geval maak je een default aan voor het geval er kleuren voorkomen die niet bekend zijn bij deze switch.
 
 // ==========================================
 // [BONUSOPDRACHT] - optioneel: kun je de switch-statement uit opdracht 2 ook opschrijven met een aantal if-statements?
