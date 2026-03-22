@@ -101,6 +101,7 @@ switch (monitorColor) {
 }
 
 // VRAAG: Wanneer gebruik je een default?
+// Dat gebruik je als geen enkele case matcht
 
 // ==========================================
 // [BONUSOPDRACHT] - optioneel: kun je de switch-statement uit opdracht 2 ook opschrijven met een aantal if-statements?
